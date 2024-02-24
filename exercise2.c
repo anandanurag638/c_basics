@@ -1,40 +1,25 @@
-// #include <stdio.h>
-// int fib(int n){
-// if (n <= 0 || n == 1)
-// {
-//     /* code */return n;
-// }
-// else
-// {
- 
-//     return fib(n - 1) + fib(n - 2);
+
+
+ #include<stdio.h>
+ int main(){
+    int i,j ;
+   int mat[3][3] = {
+            
+        {1,2,3},
+        {4,5,6,},
+        {7,8,9,}
     
-// }
-
-
-// }
-
-
-
-// int main(){
-//     int i, num;
-//     printf("give me thr number");
-//     scanf ("%d ", &num);
-//     printf("fib series \n");
-//     for (int  i = 0; i < num; ++i){
-//         printf("%d", fib(i));
-//     }
-//     {
-//         printf("\n");
-//         /* code */return 0 ;
-//     }
+         };
+    for ( i = 0; i < 3 ; i++)  {
+        for (j = 0; j < 3; j++)
+        {
+            /* code */printf("%d\n", mat[i][j]);
+        }
+        
+    }
+    {
+        printf("\n");   /* code */
+    }
     
-    
-    
-//     }
-
-#include<stdio.h>
-int main(){
-    printf("gjjgkj;");
-    return 0;
-}
+      return 0;
+ }
