@@ -6,7 +6,7 @@ int main()
     
     printf("give me your number");
     scanf("%d", &n );
-    if (n < 0 || n== 1)
+    if (n < 0 || n == 1)
     {
              printf("can't get your number");
 
