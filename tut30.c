@@ -1,51 +1,46 @@
 #include <stdio.h>
 int main()
 {
-    int choice, rows, i, j;
-    printf("choose 1 for triangular pattern \nchoose 0 for reversed triangular pattern\n");
-    scanf("%d", &choice);
-    printf("how many rows in  your star triangle\n");
-    scanf("%d", &rows);
-    if (choice == 1)
-
+    int row, i, j, order;
+    printf("type 1 for reverse order \ntype 2 for general triangle\n");
+    scanf("%d", &order);
+    printf("how many rows you want\n");
+    scanf("%d", &row);
+    if (order == 1)
     {
-        printf("triangular star pattern  \n");
-        /* code */ for (int i = 1; i <= rows; i++)
+        printf("reverse order triangle\n");
+        /* code */ for (i = row; i >= 1; i--)
         {
             for (j = 1; j <= i; j++)
             {
                 /* code */ printf("*");
-                
             }
             printf("\n");
         }
-        
-            
-        
-
-        /* code */
-    }
-
-     else if (choice == 0)
-     {
-        /* code */ printf("reverse triangular pattern \n");
-
-        for (i = rows; i >= 1; i--)
         {
-            for (j = 1; j <= i; j++)
-            {
-                /* code */ printf("*");
-                
-            }
-            printf("\n");
+            /* code */
         }
+    }
+    else if (order == 2) {
+    for (i = 0; i <= row; i++)
+    {
+        for (j = 0; j <= i; j++)
+        {
+            printf("*"); /* code */
+        }
+        printf("\n");
+    }
 
+    {
         /* code */
     }
-    else
+
     {
-        printf("invalid pattern");
-        
+        // /* code *
     }
+    }
+        else
+    printf("wrong input given");
+
     return 0;
 }
