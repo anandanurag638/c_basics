@@ -7,17 +7,18 @@
 // }
 #include<stdio.h>
 #include<string.h>
-int main(){
+void main(){
 char n1 [] = "anurag";
 char n2 [] = "anand";
 char n3 [151];
-printf("here is concatinated string value\n %s\n",strcat(n1, n2));
+// printf("here is concatinated string value\n %s\n",strcat(n1, n2));
 printf("here is length of your string\n  %d \n",strlen(n2));
-printf("here is the reverse of the word \n %d\n", strerror );
+printf("here is the any other fuction of the word \n %s\n", strcspn );
 strcpy(n3 , n1);
 printf("%s /n", n3);
 strcpy(n3 , n2);
-printf("  %s", n3);
+printf("  %s \n", n3);
+ int a = (strcmp(n1,n2));
+printf("%d", a);
 
-return 0;
 }

@@ -1,1 +1,1 @@
-strcpy(n3 , n2);
+printf("  %s", n3);
