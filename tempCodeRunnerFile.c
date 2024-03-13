@@ -1,1 +1,1 @@
-printf("  %s", n3);
+    // printf("give me numbers");
